@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="Resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+     <header>  
+    <div class="hero-header">
+            <div class="wrapper">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-z"></i>
+                <div class="logo-text"><a href="Home.html">Zidan Ahmad</a></div>
+            </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <ul class="navlinks">
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="Resume.html">RESUME</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+        <!--Portofolio-->
+        <div class="container">
+            <div class="portfolio-z">
+                <div class="portfolio-pic">
+                    <img src="img/poto-zidan.webp" alt="user avatar">
+                </div>
+                
+                <div class="profile-details">
+                    <div class="intro">
+                        <h2>Zidan Ahmad Romdhani</h2>
+                        <h4><a href="https://campus.quipper.com/kampuspedia/fresh-graduate">Fresh Graduate</a></h4>
+                        <div class="social">
+                            <a href="https://www.instagram.com/zdnahmadd?r=nametag"><i class="fa-brands fa-instagram" style="color:var(--purple)"></i></a>
+                            <a href="https://wa.me/085283938745"><i class="fa-brands fa-whatsapp" style="color:var(--green)"></i></a>
+                            <a href="mailto:zidan313ahmad@gmail.com?subject=tanya%20Project&body=Saya%20Tertarik%20Dengan%Project%20Anda"><i class="fa-regular fa-envelope" style="color:var(--skyblue)"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <div class="row">
+                            <div class="icon">
+                                <i class="fa fa-phone" style="color:var(--skyblue)"></i>
+                            </div>
+                            <div class="content">
+                                <span>Phone</span>
+                                <h5>+62 852 8393 8745</h5>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt" style="color:var(--green)"></i>
+                            </div>
+                            <div class="content">
+                                <span>Location</span>
+                                <h5>Jakarta,Indonesia</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="download-btn"><i class="fa fa-download"></i> 
+                     Download CV</button>
+            </div>
+        </div>
+        <!--about section-->
+        <div class="about">
+            <h1>About Me</h1>
+            <p>
+                Saya lulusan dari Sekolah Menengah kejuruan dan Saya memiliki pengalaman kerja praktis selama 2 bulan
+            </p>
+            <p>
+                Saya mngambil jurusan Teknik Komputer dan Jaringan
+            </p>
+            <h2>What I Do !!!</h2>
+               <div class="work">
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="img/skills.svg" alt="">
+                    </div>
+                    <div class="desc">
+                        <h3>SKILLS</h3>
+                        <p>
+                            <ul>
+                                <li>Mampu bekerja dalam tim</li>
+                                <li>Dapat memperbaiki trouble pada sofware maupun hardware</li>
+                                <li>Disiplin</li>
+                                <li>Dapat membuat topologi jaringan dan mampu membuat sebuah website</li>
+                                
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="img/academic.svg" alt="">
+                    </div>
+                    <div class="Ed">
+                        <h3>Educational Background</h3>
+                        <P>
+                            <ul>
+                                <li><b>SDN 04 Pagi<br>Kembangan Utara Jakarta Barat</b></li>
+                                <p>2011-2017</p>
+                                <li><b>SMP Al-Manshuriyah<br>Kembangan Utara,Jakarta Barat</b></li>
+                                <p>2017-2020</p>
+                                <li><b>SMK Al-Huda<br>Kebon Jeeruk,Jakarta Barat</b></li>
+                                <p>2020-2023</p>
+                            </ul>
+                        </P>
+                    </div>
+                </div>
+               
+                <div class="workbox">
+                    <div class="icon">
+                        <img src="img/WE.svg" alt="">
+                    </div>
+                    <div class="Eb">
+                        <h3>Work Experience</h3>
+                        <P>
+                            <ul>
+                                <li>Kantor Kecamatan Kembangan Jakarta Barat</li>
+                                <p>IT Support </p>
+                            </ul>
+                        </P>
+                    </div>
+                </div>
+
+               </div> 
+            </div>
+        </div>
+    <!--type js -->
+    <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+    </script>
+</body>
+</html>

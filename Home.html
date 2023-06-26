@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO ZIDAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+        <div class="hero-header">
+            <div class="wrapper">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-z"></i>
+                <div class="logo-text">Zidan Ahmad</div>
+            </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="Resume.html" class="nav active">RESUME</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="img/poto-zidan.webp" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'am <span class="input">Fresh Graduate</span></h5>
+                    <h1>Zidan Ahmad Romdhani</h1>
+                    <p>Saya adalah lulusan dari <b>SMK AL - HUDA</b> Kebon Jeruk,Jakarta Barat</p>
+                    <div class="btn-group">
+                        <a href="#" class="btn active">Download CV</a>
+                        <a href="#" class="btn">Contact</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.instagram.com/zdnahmadd?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/085283938745"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="mailto:zidan313ahmad@gmail.com?subject=tanya%20Project&body=Saya%20Tertarik%20Dengan%Project%20Anda"><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--type js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"></script>
+    <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Fresh Graduate","SMK AL-Huda","Teknik Komputer dan Jaringan"],
+            typedspeed:150,
+            backSpeed:55,
+            loop:true
+        })
+    </script>
+</body>
+</html>
