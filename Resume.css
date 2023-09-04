@@ -319,7 +319,7 @@ nav .navlinks .active {
 
 
 /* Responsiv design & displaying navbar for small screen */
-@media screen and (max-width:570px)
+@media (max-width:600px)
 {
     .logo-text{
         display: none;
