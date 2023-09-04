@@ -13,7 +13,7 @@
         <header>
             <div class="logo">
                 <i class="fa-solid fa-z"></i>
-                <div class="logo-text">Zidan Ahmad</div>
+                <div class="logo-text">Portofolio</div>
             </div>
                 <nav>
                     <div class="togglebtn">
@@ -22,12 +22,12 @@
                         <span></span>
                     </div>
                     <ul class="navlinks">
-                        <li><a href="Home.html">HOME</a></li>
-                        <li><a href="Resume.html" class="nav active">RESUME</a></li>
+                        <li><a href="index.html" class="active">HOME</a></li>
+                        <li><a href="Resume.html" >RESUME</a></li>
                         <li><a href="#">CONTACT</a></li>
                     </ul>
                 </nav>
-            </header>
+        </header>
             <div class="container">
                 <div class="hero-pic">
                     <img src="img/poto-zidan.webp" alt="profile pic">
@@ -35,9 +35,9 @@
                 <div class="hero-text">
                     <h5>Hi I'am <span class="input">Fresh Graduate</span></h5>
                     <h1>Zidan Ahmad Romdhani</h1>
-                    <p>Saya adalah lulusan dari <b>SMK AL - HUDA</b> Kebon Jeruk,Jakarta Barat</p>
+                    <p>Saya adalah lulusan dari <b style="color: #00ccff; font-weight: 900;">SMK AL - HUDA</b> Kebon Jeruk,Jakarta Barat</p>
                     <div class="btn-group">
-                        <a href="https://drive.google.com/file/d/1NGd0vNvXg-EA1cB3I0dVj-hVVJ8T6RJF/view?usp=drive_link" class="btn active">Download CV</a>
+                        <a href="#" class="btn active">Download CV</a>
                         <a href="#" class="btn">Contact</a>
                     </div>
                     <div class="social">
@@ -49,6 +49,16 @@
             </div>
         </div>
     </div>
+    <!-- isi -->
+    <!-- isi end -->
+
+    <!-- Footer -->
+            <footer>
+                <div class="bckgrnd">
+                    
+                </div>
+            </footer>
+
     
     <!--type js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"></script>
@@ -58,7 +68,8 @@
         var nav=document.querySelector(".navlinks");
         var links=document.querySelector(".navlinks li");
 
-        togglebtn.addEventListener("click", function(){
+        togglebtn.addEventListener("click", 
+        function(){
             this.classList.toggle("click");
             nav.classList.toggle("open");
         })
