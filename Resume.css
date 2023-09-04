@@ -319,11 +319,9 @@ nav .navlinks .active {
 
 
 /* Responsiv design & displaying navbar for small screen */
-@media (max-width:600px)
+@media(max-width:600px)
 {
-    .logo-text{
-        display: none;
-    }
+    
     nav .togglebtn{
         display: initial;
     }
