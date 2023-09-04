@@ -396,4 +396,6 @@ nav .navlinks .active {
     nav .navlinks.open{
         right: 0;
     }
+    .logo-text{
+        diplay: none;
 }
